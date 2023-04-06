@@ -1,0 +1,29 @@
+# Define a state variable called 'visible' and initialize it to true
+- variable:
+    name: visible
+    value: true
+
+# Define a function called 'handleToggle' that toggles the value of 'visible'
+- function:
+    name: handleToggle
+    code: |
+      const handleToggle = () => {
+        setVisible(!visible);
+      }
+
+# Define a component called 'HiMom' that renders a button and a div element
+- component:
+    name: HiMom
+    code: |
+      const HiMom = () => {
+        return (
+          <div>
+            <button onClick={handleToggle}>Toggle</button>
+            {visible && <div>hi mom</div>}
+          </div>
+        );
+      }
+
+# Export the 'HiMom' component for use in other parts of the application
+- export:
+    name: HiMom
