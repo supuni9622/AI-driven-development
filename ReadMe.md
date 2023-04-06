@@ -24,7 +24,7 @@
 
 6. Ask chat gpt to modify the code, then add it to App.tsx and check
 
-![Step 6 image 1](/img 1.png)
+![Step 6 image 1](https://github.com/supuni9622/AI-driven-development/blob/main/img%201.png)
 ![Step 6 image 2](/img 2.png)
 ![Step 6 image 3](/img 3.png)
 
